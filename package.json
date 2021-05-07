@@ -1,0 +1,22 @@
+{
+  "name": "ashhu",
+  "version": "1.0.0",
+  "homepage": "https://Ashwinimestha.github.io/netlifix-app",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "author": "ash",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
